@@ -1,0 +1,20 @@
+.infoCompras {
+    background-image: url(../img/fondoLiA.jpg);
+    margin-top: 1em;
+    padding: 0;
+}
+
+.infoCompras h2 {
+    font-family: $fontTestA;
+    text-align: center;
+    color: black;
+    margin: 0;
+    font-size: $fontSizeBig;
+    font-weight: $fontBold;
+}
+
+@media only screen and (max-width: 480px) {
+    .infoCompras h2 {
+        font-size: $fontSizeMedium;
+    }
+}

@@ -1,0 +1,20 @@
+.tituloCarousel {
+    margin-bottom: 1em;
+    background-image: url(../img/fondoLiA.jpg);
+    padding: 0;
+}
+
+.tituloCarousel h1 {
+    font-family: $fontTestA;
+    text-align: center;
+    color: black;
+    margin: 0;
+    font-size: $fontSizeBig;
+    font-weight: $fontBold;
+}
+
+@media only screen and (max-width: 480px) {
+    .tituloCarousel h1 {
+        font-size: $fontSizeMedium;
+    }
+}

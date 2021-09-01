@@ -1,0 +1,31 @@
+//Variables
+* {
+    margin: 0;
+    padding: 0;
+}
+
+$bg-dark: #000000;
+$bg-info: #1c67b4;
+$bg-success: #2a9425;
+$w-25: 25%;
+$w-50: 50%;
+$w-100: 100%;
+$d-flex: flex;
+$d-block: block;
+$bg-cian: #c9fff9;
+$bg-lightcian: #d5f5fc;
+$backgroundtest: 5;
+footer {
+    @if $backgroundtest==1 {
+        background-color: #5ed458;
+    }
+    @else if $backgroundtest==2 {
+        background-color: #ee85dc;
+    }
+    @else if $backgroundtest==3 {
+        background-color: #eeec66;
+    }
+    @else {
+        background-color: $bg-lightcian;
+    }
+}

@@ -1,0 +1,33 @@
+.formContainer {
+    height: auto;
+}
+
+.tituloForm {
+    margin: 0;
+    background-image: url(../img/fondoLiA.jpg);
+    padding: 0;
+}
+
+.tituloForm h1 {
+    font-family: $fontTestA;
+    text-align: center;
+    color: black;
+    margin: 0;
+    font-size: $fontSizeBig;
+    font-weight: $fontBold;
+}
+
+.btn-group a {
+    color: white;
+}
+
+.mapContainer {
+    display: flex;
+    justify-content: center;
+}
+
+.map {
+    margin-top: 2em;
+    margin-bottom: 4em;
+    width: 100%;
+}
