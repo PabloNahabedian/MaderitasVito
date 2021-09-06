@@ -15,17 +15,3 @@ $d-block: block;
 $bg-cian: #c9fff9;
 $bg-lightcian: #d5f5fc;
 $backgroundtest: 5;
-footer {
-    @if $backgroundtest==1 {
-        background-color: #5ed458;
-    }
-    @else if $backgroundtest==2 {
-        background-color: #ee85dc;
-    }
-    @else if $backgroundtest==3 {
-        background-color: #eeec66;
-    }
-    @else {
-        background-color: $bg-lightcian;
-    }
-}

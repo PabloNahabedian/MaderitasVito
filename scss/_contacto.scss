@@ -18,7 +18,19 @@
 }
 
 .btn-group a {
-    color: white;
+    background-color: white;
+    font-weight: bold;
+    border: 1px solid black;
+}
+
+.containerImgContacto {
+    display: flex;
+    justify-content: center;
+}
+
+.containerImgContacto img {
+    width: 50em;
+    margin: 1.5em;
 }
 
 .mapContainer {

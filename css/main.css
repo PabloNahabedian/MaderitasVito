@@ -7,9 +7,6 @@
   margin: 0;
   padding: 0; }
 
-footer {
-  background-color: #d5f5fc; }
-
 .boxLogo {
   margin: 0;
   padding: 0;
@@ -151,34 +148,27 @@ footer .container-social p {
   .card-body {
     width: 100%; } }
 
-/*agrego temporalmente aca seccion de envios */
-.containerImgEnvios {
-  display: flex;
-  justify-content: center; }
-
-.containerImgEnvios img {
-  margin: 1.5em;
-  margin-top: 0.5em; }
-
-.backgroundImgEnvio {
-  background-image: url(../img/fondocards.jpg); }
-
-.bigBoxCarousel {
-  margin-top: 1em;
-  margin-bottom: 1em; }
-
 .sellBigBox {
   display: flex;
   justify-content: space-between; }
 
 .buttonColor {
-  background-color: #00c4ff;
   border: #00c4ff; }
 
 .sellBox {
-  background-image: url(../img/fondoLiA.jpg);
-  margin: 3em;
-  height: auto; }
+  width: auto;
+  margin: 0.5em;
+  height: auto;
+  padding: 1em; }
+
+.sellBox img {
+  width: auto;
+  height: 20em;
+  border-radius: 2em;
+  transition: transform .2s; }
+
+.sellBox img:hover {
+  transform: scale(1.1); }
 
 .formContainer {
   height: auto; }
@@ -197,7 +187,17 @@ footer .container-social p {
   font-weight: 600; }
 
 .btn-group a {
-  color: white; }
+  background-color: white;
+  font-weight: bold;
+  border: 1px solid black; }
+
+.containerImgContacto {
+  display: flex;
+  justify-content: center; }
+
+.containerImgContacto img {
+  width: 50em;
+  margin: 1.5em; }
 
 .mapContainer {
   display: flex;
@@ -207,6 +207,17 @@ footer .container-social p {
   margin-top: 2em;
   margin-bottom: 4em;
   width: 100%; }
+
+.containerImgEnvios {
+  display: flex;
+  justify-content: center; }
+
+.containerImgEnvios img {
+  margin: 1.5em;
+  margin-top: 0.5em; }
+
+.backgroundImgEnvio {
+  background-image: url(../img/fondocards.jpg); }
 
 .containerCardOne {
   background-color: #FDE398; }
@@ -227,3 +238,19 @@ footer .container-social p {
 
 .containerImgFabricacion img:hover {
   transform: scale(1.1); }
+
+.containerTextFabricacion h4 {
+  font-family: "Caveat";
+  text-align: center;
+  color: black;
+  margin: 0;
+  font-size: 3em;
+  font-weight: 600; }
+
+.containerTextFabricacion p {
+  color: black;
+  font-style: none;
+  text-decoration: none;
+  font-family: "Indie Flower";
+  font-size: 1.5em;
+  justify-self: center; }

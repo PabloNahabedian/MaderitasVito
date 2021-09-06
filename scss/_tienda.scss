@@ -4,12 +4,23 @@
 }
 
 .buttonColor {
-    background-color: #00c4ff;
     border: #00c4ff;
 }
 
 .sellBox {
-    background-image: url(../img/fondoLiA.jpg);
-    margin: 3em;
+    width: auto;
+    margin: 0.5em;
     height: auto;
+    padding: 1em;
+}
+
+.sellBox img {
+    width: auto;
+    height: 20em;
+    border-radius: 2em;
+    transition: transform .2s;
+}
+
+.sellBox img:hover {
+    transform: scale(1.1);
 }
