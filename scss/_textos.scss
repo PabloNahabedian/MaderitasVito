@@ -16,4 +16,10 @@
     .infoCompras h2 {
         font-size: $fontSizeMedium;
     }
+    .card-body h3 {
+        font-size: $fontSizeBig;
+    }
+    .card-body {
+        font-size: $fontSizeSmall;
+    }
 }

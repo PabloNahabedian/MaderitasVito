@@ -1,7 +1,15 @@
+.boxBackground {
+    background-color: #fb6a31;
+}
+
 .bigBoxCards {
     background: url(../img/fondocards.jpg);
     display: flex;
     justify-content: center;
+}
+
+.card-body {
+    align-items: center;
 }
 
 .card-title {
@@ -26,23 +34,34 @@
     border-radius: 2em;
 }
 
+.bigSmallCards {
+    background-color: blue;
+}
+
 @media only screen and (max-width: 480px) {
     .mediumBoxCards {
-        background-image: url(../img/fondoLiA.jpg);
+        display: flex;
+        justify-content: center;
     }
     .bigBoxCards {
         display: flex;
+        justify-content: center;
     }
     .bigSmallCards {
-        width: 100%;
+        width: 20em;
+    }
+    .boxBackground {
         background-image: url(../img/fondoLiA.jpg);
     }
     .miniBoxCards img {
-        width: 50%;
-        height: 120px;
-        margin-left: 25%;
+        display: none;
     }
-    .card-body {
-        width: 100%;
+    .containerImgEnvios {
+        display: flex;
+        align-items: center;
     }
+    /*.containerImgEnvios img {
+        width: 10em;
+        height: 8em;
+    }*/
 }

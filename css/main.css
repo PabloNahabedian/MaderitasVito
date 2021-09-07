@@ -107,12 +107,22 @@ footer .container-social p {
 
 @media only screen and (max-width: 480px) {
   .infoCompras h2 {
-    font-size: 1.5em; } }
+    font-size: 1.5em; }
+  .card-body h3 {
+    font-size: 3em; }
+  .card-body {
+    font-size: 0.8em; } }
+
+.boxBackground {
+  background-color: #fb6a31; }
 
 .bigBoxCards {
   background: url(../img/fondocards.jpg);
   display: flex;
   justify-content: center; }
+
+.card-body {
+  align-items: center; }
 
 .card-title {
   font-family: "Caveat";
@@ -133,20 +143,29 @@ footer .container-social p {
 .miniBoxCards img {
   border-radius: 2em; }
 
+.bigSmallCards {
+  background-color: blue; }
+
 @media only screen and (max-width: 480px) {
   .mediumBoxCards {
-    background-image: url(../img/fondoLiA.jpg); }
+    display: flex;
+    justify-content: center; }
   .bigBoxCards {
-    display: flex; }
+    display: flex;
+    justify-content: center; }
   .bigSmallCards {
-    width: 100%;
+    width: 20em; }
+  .boxBackground {
     background-image: url(../img/fondoLiA.jpg); }
   .miniBoxCards img {
-    width: 50%;
-    height: 120px;
-    margin-left: 25%; }
-  .card-body {
-    width: 100%; } }
+    display: none; }
+  .containerImgEnvios {
+    display: flex;
+    align-items: center; }
+  /*.containerImgEnvios img {
+        width: 10em;
+        height: 8em;
+    }*/ }
 
 .sellBigBox {
   display: flex;
