@@ -13,8 +13,11 @@
 }
 
 @media only screen and (max-width: 480px) {
+    .tituloCarousel h1 {
+        font-size: 4vh;
+    }
     .infoCompras h2 {
-        font-size: $fontSizeMedium;
+        font-size: 4vh;
     }
     .card-body h3 {
         font-size: $fontSizeBig;

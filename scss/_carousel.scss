@@ -12,8 +12,13 @@
     font-weight: $fontBold;
 }
 
+.carouselImgSize img {
+    height: 50em;
+    width: 100%;
+}
+
 @media only screen and (max-width: 480px) {
-    .tituloCarousel h1 {
-        font-size: $fontSizeMedium;
+    .carouselImgSize img {
+        height: 20em;
     }
 }

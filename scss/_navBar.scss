@@ -30,7 +30,7 @@
 
 .nav__letters ul li:hover {
     background-color: #fde398;
-    transition: all .3s ease-in-out;
+    transition: 0.5s ease-in-out;
 }
 
 .nav__letters ul li a {
@@ -38,6 +38,6 @@
     font-style: none;
     text-decoration: none;
     font-family: $fontNav;
-    font-size: $fontSizeMedium;
+    font-size: 5vh;
     justify-self: center;
 }

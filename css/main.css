@@ -34,14 +34,14 @@
 
 .nav__letters ul li:hover {
   background-color: #fde398;
-  transition: all .3s ease-in-out; }
+  transition: 0.5s ease-in-out; }
 
 .nav__letters ul li a {
   color: black;
   font-style: none;
   text-decoration: none;
   font-family: "Indie Flower";
-  font-size: 1.5em;
+  font-size: 5vh;
   justify-self: center; }
 
 footer {
@@ -89,9 +89,13 @@ footer .container-social p {
   font-size: 3em;
   font-weight: 600; }
 
+.carouselImgSize img {
+  height: 50em;
+  width: 100%; }
+
 @media only screen and (max-width: 480px) {
-  .tituloCarousel h1 {
-    font-size: 1.5em; } }
+  .carouselImgSize img {
+    height: 20em; } }
 
 .infoCompras {
   background-image: url(../img/fondoLiA.jpg);
@@ -106,8 +110,10 @@ footer .container-social p {
   font-weight: 600; }
 
 @media only screen and (max-width: 480px) {
+  .tituloCarousel h1 {
+    font-size: 4vh; }
   .infoCompras h2 {
-    font-size: 1.5em; }
+    font-size: 4vh; }
   .card-body h3 {
     font-size: 3em; }
   .card-body {
@@ -138,7 +144,8 @@ footer .container-social p {
   text-decoration: none;
   font-family: "Indie Flower";
   font-size: 1.5em;
-  justify-self: center; }
+  justify-self: center;
+  font-weight: bold; }
 
 .miniBoxCards img {
   border-radius: 2em; }
@@ -161,11 +168,17 @@ footer .container-social p {
     display: none; }
   .containerImgEnvios {
     display: flex;
-    align-items: center; }
-  /*.containerImgEnvios img {
-        width: 10em;
-        height: 8em;
-    }*/ }
+    align-items: center; } }
+
+.sellBigBoxContacto {
+  display: flex;
+  justify-content: space-between; }
+
+.sellBoxContacto img {
+  margin: 2em;
+  width: auto;
+  height: 30em;
+  border-radius: 2em; }
 
 .sellBigBox {
   display: flex;
@@ -211,7 +224,7 @@ footer .container-social p {
   justify-content: center; }
 
 .containerImgContacto img {
-  width: 50em;
+  width: 90%;
   margin: 1.5em; }
 
 .mapContainer {
@@ -222,6 +235,10 @@ footer .container-social p {
   margin-top: 2em;
   margin-bottom: 4em;
   width: 100%; }
+
+@media only screen and (max-width: 991px) {
+  .containerImgContacto {
+    display: none; } }
 
 .containerImgEnvios {
   display: flex;
