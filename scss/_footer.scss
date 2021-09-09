@@ -1,7 +1,7 @@
 footer {
-    background-color: #fde398;
+    background-image: url(../img/fondoTituloH.jpg);
     width: 100%;
-    height: 150px;
+    height: auto;
 }
 
 .container-social {
@@ -9,18 +9,21 @@ footer {
     justify-content: space-between;
 }
 
-footer .container-social img {
-    width: 50px;
-    margin: 1em;
-}
-
-footer .container-social p {
-    font-family: $fontTestA;
+.container-social p {
+    transition: transform .2s;
+    background-color: black;
+    border-style: groove;
+    font-family: $fontMain;
     text-align: center;
-    color: black;
+    color: white;
     margin: 0;
     font-size: $fontSizeMedium;
     width: 10em;
+    font-weight: bold;
+}
+
+.container-social p:hover {
+    transform: scale(1.1);
 }
 
 .miniContainerSocial {
@@ -33,7 +36,32 @@ footer .container-social p {
     justify-content: center;
 }
 
+.containerLogo img {
+    transition: transform .2s;
+    width: 6vh;
+    margin: 1em;
+}
+
+.containerLogo img:hover {
+    transform: scale(1.2);
+}
+
 .containerParagraph {
     display: flex;
     justify-content: center;
+}
+
+.copyRight p {
+    font-family: $fontTestA;
+    color: white;
+    font-weight: bolder;
+    font-size: $fontSizeMedium;
+    text-align: center;
+    font-size: 3vh;
+}
+
+@media only screen and (max-width: 600px) {
+    .container-social p {
+        display: none;
+    }
 }
