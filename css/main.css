@@ -41,7 +41,7 @@
   font-style: none;
   text-decoration: none;
   font-family: "Indie Flower";
-  font-size: 5vh;
+  font-size: 4vh;
   justify-self: center; }
 
 footer {
@@ -220,6 +220,12 @@ footer {
   width: auto;
   height: 20em;
   border-radius: 2em; }
+
+.card-body p {
+  text-align: start; }
+
+.card-body {
+  text-align: end; }
 
 .formContainer {
   height: auto; }
