@@ -112,6 +112,14 @@ footer {
   font-size: 3em;
   font-weight: 600; }
 
+.tituloCarousel h3 {
+  font-family: "Caveat";
+  text-align: center;
+  color: black;
+  margin: 0;
+  font-size: 3em;
+  font-weight: 600; }
+
 .carouselImgSize img {
   height: 50em;
   width: 100%; }
@@ -255,6 +263,14 @@ footer {
   font-size: 3em;
   font-weight: 600; }
 
+.tituloForm h2 {
+  font-family: "Caveat";
+  text-align: center;
+  color: black;
+  margin: 0;
+  font-size: 3em;
+  font-weight: 600; }
+
 .btn-group a {
   background-color: white;
   font-weight: bold;
@@ -312,7 +328,7 @@ footer {
 .containerImgFabricacion img:hover {
   transform: scale(1.1); }
 
-.containerTextFabricacion h4 {
+.containerTextFabricacion h2 {
   font-family: "Caveat";
   text-align: center;
   color: black;

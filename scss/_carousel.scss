@@ -12,6 +12,15 @@
     font-weight: $fontBold;
 }
 
+.tituloCarousel h3 {
+    font-family: $fontTestA;
+    text-align: center;
+    color: black;
+    margin: 0;
+    font-size: $fontSizeBig;
+    font-weight: $fontBold;
+}
+
 .carouselImgSize img {
     height: 50em;
     width: 100%;
